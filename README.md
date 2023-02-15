@@ -14,7 +14,7 @@ We will spend about 5 minutes on each step. If you get lost or something doesn't
 
 3. If you are in Tier 2, wait a minute for the Tier 1 fork to show up. Then, click the number to the right of the "Fork" button. You will see a list of Tier 1 students who have forked it from allardjun. Fork the repo from one of them. 
 
-4. Everyone: Make sure you are in  *your* repo. The URL and the title should say `[your username]/Foundations2022OurStory`, and not `[someone else's username]/Foundations2022OurStory`. Then, 
+4. Everyone: Make sure you are in  *your* repo. The URL and the title should say `[your username]/Foundations2023OurStory`, and not `[someone else's username]/Foundations2023OurStory`. Then, 
 
     - Click the file `main.tex`. 
     - Click the edit button, which is a pencil icon at the right of the screen, between a monitor icon and a trash icon.
@@ -35,4 +35,6 @@ We will spend about 5 minutes on each step. If you get lost or something doesn't
      - Click "Pull Request" tab in the horizontal tab list,
      - Click "New Pull Request" green button on right of the screen.
      - Create Pull Request
+     
+10. The merged version is now in the `allardjun/Foundations2023OurStory` repo. To merge this into yours, click `Sync fork` in your repo's homepage `[your username]/Foundations2023OurStory`. 
 
