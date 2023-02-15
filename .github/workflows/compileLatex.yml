@@ -1,0 +1,21 @@
+name: Compile latex problem sets
+on:
+  push:
+    branches:
+      - master
+      - main
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Compile LaTeX document
+        uses: dante-ev/latex-action@latest
+        with:
+          entrypoint: ./compileLatex.sh
+      - name: push back to repo
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: compiled latex
+          file_pattern: main.pdf
